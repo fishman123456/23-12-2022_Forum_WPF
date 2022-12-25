@@ -47,6 +47,19 @@ namespace _23_12_2022_Forum_WPF
             Background= new SolidColorBrush(Colors.Green); 
             Title = Green.Name;
         }
+ 
+
+        private void Window_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.White);
+            Title = "White";
+        }
+
+        private void Window_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.White);
+            Title = "White";
+        }
     }
 }
 //Набор_кнопок
