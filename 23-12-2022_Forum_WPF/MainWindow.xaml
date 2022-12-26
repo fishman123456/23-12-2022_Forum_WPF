@@ -22,9 +22,9 @@
                 <ColumnDefinition Width="150*"/>
                 <ColumnDefinition Width="150*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="Blue" Content="Blue" Grid.Row="1" Click="Button_Click_4" Margin="2" Background="#FF0000DD"/>
-            <Button x:Name="Green" Content="Green" Grid.Row="2" Click="Button_Click_5" Margin="2" Background="#FF00DD00"/>
-            <Button x:Name="Red" Content="Red" Click="Button_Click_3" Margin="2" Background="#FFDD0000" />
+            <Button x:Name="Blue" Content="Blue" Grid.Row="1" Click="Button_Blue" Margin="2" Background="#FF0000DD"/>
+            <Button x:Name="Green" Content="Green" Grid.Row="2" Click="Button_Green" Margin="2" Background="#FF00DD00"/>
+            <Button x:Name="Red" Content="Red" Click="Button_Red" Margin="2" Background="#FFDD0000" />
         </Grid>
     </Grid>
 </Window>

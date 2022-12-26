@@ -25,30 +25,6 @@ namespace _23_12_2022_Forum_WPF
             InitializeComponent();
           
         }
-
- 
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-           Background = new SolidColorBrush(Colors.Red);
-            //  < Border BorderBrush = "Blue" BorderThickness = "2" CornerRadius = "6" > </ Border >
-            Title = Red.Name;
-            //Title = "RED";
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-            Background = new SolidColorBrush(Colors.Blue);
-            Title = Blue.Name;
-        }
-
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {
-            Background= new SolidColorBrush(Colors.Green); 
-            Title = Green.Name;
-        }
- 
-
         private void Window_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             Background = new SolidColorBrush(Colors.White);
@@ -59,6 +35,26 @@ namespace _23_12_2022_Forum_WPF
         {
             Background = new SolidColorBrush(Colors.White);
             Title = "White";
+        }
+
+        private void Button_Blue(object sender, RoutedEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.Blue);
+            Title = Blue.Name;
+        }
+
+        private void Button_Green(object sender, RoutedEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.Green);
+            Title = Green.Name;
+        }
+
+        private void Button_Red(object sender, RoutedEventArgs e)
+        {
+            Background = new SolidColorBrush(Colors.Red);
+            //  < Border BorderBrush = "Blue" BorderThickness = "2" CornerRadius = "6" > </ Border >
+            Title = Red.Name;
+            //Title = "RED";
         }
     }
 }
